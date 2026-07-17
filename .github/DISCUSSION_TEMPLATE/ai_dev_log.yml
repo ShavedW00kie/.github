@@ -1,0 +1,23 @@
+title: "[AI Log] "
+description: Log an AI chat transcript, prompt, or architectural decision.
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Context / Goal
+      description: What were you trying to achieve in this AI session?
+      placeholder: e.g., "Trying to figure out the best database schema for user logins."
+    validations:
+      required: true
+  - type: textarea
+    id: prompts
+    attributes:
+      label: Effective Prompts Used
+      description: Paste any specific prompts that yielded excellent results so they can be reused.
+      render: markdown
+  - type: textarea
+    id: decisions
+    attributes:
+      label: AI Output & Decisions
+      description: Paste the architectural decisions, code snippets, or useful explanations provided by the AI.
+      render: markdown
