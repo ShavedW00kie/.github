@@ -1,5 +1,4 @@
 title: "[AI Log] "
-description: Log an AI chat transcript, prompt, or architectural decision.
 body:
   - type: textarea
     id: goal
