@@ -12,5 +12,4 @@ lfx_crowdfunding: # Replace with a single LFX Crowdfunding project-name e.g., cl
 polar: # Replace with a single Polar username
 buy_me_a_coffee: bittick1c
 thanks_dev: shavedw00kie
-custom: # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2']
 custom: ['https://mempool.space/address/bc1qn58qtzsl5k3850glk0y6vz0ueaff9frvxqp55y']
