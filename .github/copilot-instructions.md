@@ -35,3 +35,11 @@
 
 10. **Directive Expansion**  
    Apply any additional directive that strengthens attainment of project goals. Copilot must proactively identify and enforce constraints that maximize success.
+
+# Integration & Formatting Constraints
+
+1. **Template Awareness:** This repository utilizes structured GitHub templates. 
+   - When generating Pull Request summaries, format your output to exactly match the sections in `.github/pull_request_template.md`.
+   - When asked to draft an issue, bug report, or feature request, populate the fields defined in `.github/ISSUE_TEMPLATE/`.
+2. **Log Formatting:** When I ask you to summarize our architecture discussions or save an effective prompt, output the data formatted perfectly for the `.github/DISCUSSION_TEMPLATE/ai_dev_log.yml` structure so I can easily copy/paste it into a new Discussion.
+3. **Workflow Integration:** If you generate GitHub Actions workflows, ensure they utilize reusable workflows from the `.github/.github/workflows/` path whenever applicable.
